@@ -1,6 +1,6 @@
 cask "flickbar" do
-  version "0.5.0"
-  sha256 "b573898b12baad257ab967b08797ce409ab6ac79769da729937238e40c299b81"
+  version "0.8.0"
+  sha256 "197ba58725051df431a98d663543f2036f84731aaf9e82c2c9c7b280e3e220f5"
 
   url "https://github.com/flickbar/flickbar/releases/download/v#{version}/Flickbar-#{version}.zip"
   name "Flickbar"
@@ -16,11 +16,7 @@ cask "flickbar" do
 
   app "Flickbar.app"
 
-  zap trash: "~/Library/Preferences/io.github.flickbar.Flickbar.plist"
+  uninstall quit: "io.github.flickbar.Flickbar"
 
-  caveats <<~EOS
-    Flickbar isn't notarized by Apple, so macOS blocks it the first time you open it.
-    Open it once, then click Open Anyway in System Settings → Privacy & Security.
-    Flickbar then asks for Accessibility access, which it needs to move windows.
-  EOS
+  zap trash: "~/Library/Preferences/io.github.flickbar.Flickbar.plist"
 end

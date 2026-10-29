@@ -5,7 +5,7 @@ cask "flickbar" do
   url "https://github.com/flickbar/flickbar/releases/download/v#{version}/Flickbar-#{version}.zip"
   name "Flickbar"
   desc "Snap, resize and move windows with trackpad gestures on their title bars"
-  homepage "https://github.com/flickbar/flickbar"
+  homepage "https://flickbar.github.io/"
 
   livecheck do
     url :url

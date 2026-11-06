@@ -4,7 +4,7 @@
 brew install --cask flickbar/tap/flickbar
 ```
 
-[Flickbar](https://flickbar.github.io/) snaps, resizes and moves macOS windows with trackpad gestures
+[Flickbar](https://flickbar.parsakp.com/) snaps, resizes and moves macOS windows with trackpad gestures
 on their title bars. Free and open source (GPL-3.0-or-later); source code at
 [flickbar/flickbar](https://github.com/flickbar/flickbar).
 

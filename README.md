@@ -10,6 +10,6 @@ on their title bars. Free and open source (GPL-3.0-or-later); source code at
 
 Flickbar is notarized by Apple. On first launch it asks for **Accessibility** access, which macOS requires for apps
 that arrange windows, then offers a short gesture tutorial. Update with `brew upgrade --cask flickbar`, or choose
-*Check for Updates…* in Flickbar's menu. It speaks English, French and Persian.
+*Check for Updates…* in Flickbar's menu. It speaks English, French, Spanish, Persian and Chinese.
 
 Flickbar is made by [Parsa Kamalipour](https://github.com/benymaxparsa).

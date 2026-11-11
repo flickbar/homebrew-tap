@@ -1,6 +1,6 @@
 cask "flickbar" do
-  version "1.2.0"
-  sha256 "a4a7af3cf23139b611852f7e7d33d18510933c3fe75cc7c5969605a3c5980444"
+  version "1.3.0"
+  sha256 "23469587026b7ebff68b9d5dd743a87cd76662d41ff2e1e77189fc0f64701079"
 
   url "https://github.com/flickbar/flickbar/releases/download/v#{version}/Flickbar-#{version}.zip"
   name "Flickbar"
